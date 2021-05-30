@@ -1,0 +1,139 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 572px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 272px;
+  height: 92px;
+  background-size: 100% 100%;
+  background-image: url('https://7.dusays.com/2021/05/30/620374ac02d3e.svg');
+  margin-bottom: 38px;
+}
+.mainInput {
+  height: 44px;
+  min-width: 200px;
+  width: 100%;
+  border-radius: 22px;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  outline: none;
+  padding: 0 20px;
+  margin-bottom: 16px;
+}
+.listWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .linkWrapper {
+    position: relative;
+    .delete {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      opacity: 0;
+    }
+    &:hover .delete {
+      opacity: 1;
+    }
+  }
+}
+
+.hrefBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 112px;
+  height: 112px;
+  &:hover {
+    background-color: rgba(32, 33, 36, .1);
+  }
+  .imageWrapper {
+    align-items: center;
+    background-color: rgba(241, 243, 244, 1);
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: 48px;
+    justify-content: center;
+    margin-top: 16px;
+    width: 48px;
+  }
+  .btnName {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    height: 32px;
+    line-height: calc(32px / 2);
+    margin-top: 6px;
+    padding: 2px 8px;
+    width: 88px;
+    font-size: .625rem;
+  }
+  .fallback {
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    color:rgba(241, 243, 244, 1)
+  }
+}
+.addBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 112px;
+  height: 112px;
+  &:hover {
+    background-color: rgba(32, 33, 36, .1);
+  }
+  .btn {
+    align-items: center;
+    background-color: rgba(241, 243, 244, 1);
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: 48px;
+    justify-content: center;
+    margin-top: 16px;
+    width: 48px;
+  }
+  .btnName {
+    align-items: center;
+    border-radius: 12px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    height: 32px;
+    line-height: calc(32px / 2);
+    margin-top: 6px;
+    padding: 2px 8px;
+    width: 88px;
+    font-size: .625rem;
+  }
+}
