@@ -54,7 +54,7 @@ export default function Home() {
     <>
       <Head>
         <title>Google search</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/next-guide/favicon.ico' />
       </Head>
       <main className={style.main}>
         <div className={style.wrapper}>
