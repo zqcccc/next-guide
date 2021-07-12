@@ -54,6 +54,7 @@ export default function Home() {
     <>
       <Head>
         <title>Google search</title>
+        {/* <meta name="viewport" content="width=device-width" /> */}
         <link rel='icon' href='/next-guide/favicon.ico' />
       </Head>
       <main className={style.main}>
